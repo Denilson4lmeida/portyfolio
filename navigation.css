@@ -1,0 +1,76 @@
+/* navigation.css */
+section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.menu-item {
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.menu-item i {
+    color: #ffd700; /* Cor amarela (padrão Valle Software) */
+    font-size: 18px;
+}
+
+.menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+
+.menu-item {
+    padding: 20px 25px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+
+
+.menu-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.menu-item:hover::after {
+    width: 70%;
+}
+
+.menu-item.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-item.active::after {
+    width: 70%;
+}

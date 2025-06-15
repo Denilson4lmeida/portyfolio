@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Meta tags para SEO -->
+    <meta name="description"
+        content="Portfólio profissional de Denílson Almeida do Vale, destacando habilidades, projetos e experiência">
+    <meta name="keywords" content="portfólio, desenvolvedor, design, projetos">
+    <meta name="author" content="Denílson Almeida do Vale">
+
+    <!-- Favicon padrão -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Para Apple Devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Para navegadores modernos -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Pré-conexão para melhor performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fontes do Google -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Título da página -->
+    <title>Denílson Almeida do Vale | Portfólio</title>
+
+    <!-- CSS -->
+    <!-- Reset e estilos globais primeiro -->
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- Componentes -->
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="panel-system.css">
+
+    <!-- Painéis específicos -->
+    <link rel="stylesheet" href="bio-panel.css">
+    <link rel="stylesheet" href="projects-panel.css">
+    <link rel="stylesheet" href="valle.css">
+    <link rel="stylesheet" href="extra_panel.css">
+    <!-- Rodapé -->
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- Animações -->
+    <link rel="stylesheet" href="animations.css">
+
+    <!-- Responsividade por último -->
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body>
+    <section>
+        <ul>
+            <li class="menu-item" data-panel="painel_1">
+                <i class="fas fa-home"></i> Início
+            </li>
+            <li class="menu-item" data-panel="Painel_2">
+                <i class="fas fa-folder-open"></i> Projetos
+            </li>
+            <li class="menu-item" data-panel="painel_3">
+                <i class="fas fa-tools"></i> VALLE SOFTWARE
+            </li>
+            <li class="menu-item" data-panel="extra">
+                <i class="fas fa-ellipsis-h"></i> Mais
+            </li>
+        </ul>
+    </section>
+
+
+    <div class="panel-container">
+        <div class="painel_1 panel-active" id="primeiro">
+            <!-- Conteúdo principal com classe typewriter para o efeito de máquina de escrever -->
+            <div class="typewriter">
+                <h1>Minha Jornada Tecnológica</h1>
+            </div>
+
+            <!-- Container principal do conteúdo -->
+            <div class="main-content-container">
+                <!-- Seção de perfil à esquerda -->
+                <div class="profile-section">
+                    <div class="profile-card">
+                        <img src="capa.jpeg" alt="Foto de Denílson" class="profile-pic">
+                        <h3>Denílson Almeida</h3>
+                        <p>Desenvolvedor & Empreendedor</p>
+
+                        <div class="profile-links">
+                            <h4>Conecte-se Comigo</h4>
+                            <div class="social-links-grid">
+                                <div class="social-links-row top-row">
+                                    <ul class="social-links top-links">
+                                        <li><a href="http://www.linkedin.com/in/denilson-almeida-26ba9b2b6"
+                                                target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                                        <li><a href="https://github.com/Denilson4lmeida" target="_blank"><i
+                                                    class="fab fa-github"></i> GitHub</a></li>
+                                        <li><a href="https://discord.gg/m6M4vnNX" target="_blank"><i
+                                                    class="fab fa-discord"></i> Discord</a></li>
+                                    </ul>
+                                </div>
+                                <div class="social-links-row bottom-row">
+                                    <ul class="social-links bottom-links">
+                                        <li><a href="https://www.youtube.com/@ReedGamer_oficial" target="_blank"><i
+                                                    class="fab fa-youtube"></i> YouTube</a></li>
+                                        <li><a href="https://wa.me/5511919162364" target="_blank"><i
+                                                    class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4>Contato</h4>
+                            <ul class="contact-info">
+                                <li class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>denilsonalmeida484@gmail.com</span>
+                                </li>
+                                <li class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>(11) 9 1916-2364</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Container principal do conteúdo da biografia -->
+                <div class="bio-content">
+                    <!-- Cartão da biografia com efeitos visuais -->
+                    <div class="bio-card">
+                        <h2>Biografia</h2>
+
+                        <!-- Texto organizado em parágrafos individuais para as animações -->
+                        <div class="timeline-text">
+                            <p>Meu nome é Denílson, tenho 22 anos e sou natural de um pequeno povoado no interior da
+                                Bahia,
+                                onde a agricultura familiar predominava.</p>
+
+                            <p>Desde cedo, enfrentei dificuldades para ter acesso à tecnologia, mas minha curiosidade
+                                sempre
+                                me impulsionou a explorar esse universo.</p>
+
+                            <p>Fascinado pelo funcionamento de TVs, rádios e brinquedos eletrônicos, eu desmontava esses
+                                aparelhos para entender cada componente essencial para torná-los funcionais.</p>
+
+                            <p>Meu primeiro contato com um celular aconteceu aos 11 anos, um clássico Nokia "tijolão",
+                                com
+                                funcionalidades limitadas e uma bateria que deixava a desejar.</p>
+
+                            <p>Durante o ensino fundamental e médio, novas oportunidades surgiram, como o acesso a
+                                computadores na escola, amigos que possuíam celulares e projetos de ciências, nos quais
+                                meu
+                                grupo desenvolvia carrinhos de controle com fio.</p>
+
+                            <p>Aos 18 anos, concluí o ensino médio através da nota do Enem, pois a pandemia de COVID-19
+                                interrompeu as aulas em 2020.</p>
+
+                            <p>Nos anos de 2022 e 2023, trabalhei em diversos lugares na capital baiana, Salvador,
+                                buscando
+                                independência financeira, mas sem satisfação nas funções que exercia.</p>
+
+                            <p>Foi então que surgiu uma oportunidade transformadora: um curso gratuito de Java oferecido
+                                pelo Senac, apresentado a mim pelo diretor do colégio onde estudei.</p>
+
+                            <p>Ao final de 2024, aos 22 anos, decidi dar um grande passo e abrir minha própria empresa,
+                                a
+                                Valle Software, inicialmente funcionando dentro de casa.</p>
+
+                            <p>Enquanto ainda trabalhava como auxiliar de comércio em um supermercado, dediquei-me à
+                                manutenção preventiva e ao reparo de computadores pessoais, empresariais e notebooks,
+                                gerando assim uma renda extra.</p>
+
+                            <p>Hoje, enfrento um dilema significativo: seguir expandindo minha empresa ou buscar
+                                estabilidade como CLT em um emprego convencional.</p>
+
+                            <p>Independentemente do caminho que eu escolher, minha paixão pela tecnologia e pela
+                                inovação
+                                continua sendo o que impulsiona minha jornada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Painel_2">
+            <h1>Meus Projetos</h1>
+
+            <div class="projetos-carrossel">
+                <!-- Botões de navegação -->
+                <button class="carrossel-btn carrossel-prev">&#10094;</button>
+
+                <!-- Container dos projetos -->
+                <div class="projetos-container">
+                    <!-- Projeto 1 -->
+                    <div class="projeto-card active">
+                        <div class="projeto-imagem">
+                            <div class="imagem-grid">
+                                <img src="vallecapa.ico" alt="Imagem do Projeto 1">
+                                <img src="valle2.png" alt="Imagem do Projeto 1">
+                                <video controls>
+                                    <source src="valle software.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeo.
+                                </video>
+                            </div>
+                        </div>
+                        <div class="projeto-conteudo">
+                            <h3>Gerenciador VALLE SOFTWARE - Assistência Técnica</h3>
+                            <p class="projeto-descricao">
+                                Aplicativo desenvolvido em Java para controle de ordens de serviço, pagamentos e gestão
+                                de assistências técnicas.
+                            </p>
+                            <div class="projeto-tecnologias">
+                                <span>Java</span><span>XML</span><span>TXT</span><span>SQL</span>
+                            </div>
+                            <a href="#" class="projeto-link">Ver Projeto</a>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2 -->
+                    <div class="projeto-card">
+                        <div class="projeto-imagem">
+                            <div class="imagem-grid">
+                                <img src="capaponto.webp" alt="Imagem do Projeto 2">
+                                <img src="ponto2.png" alt="Imagem do Projeto 2">
+                                <video controls>
+                                    <source src="ponto digital.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeo.
+                                </video>
+                            </div>
+                        </div>
+                        <div class="projeto-conteudo">
+                            <h3>Ponto Digital Valle Software</h3>
+                            <p class="projeto-descricao">
+                                Aplicativo de controle de ponto, desenvolvido em Java com SQL, para registros precisos
+                                de jornada dos colaboradores.
+                            </p>
+                            <div class="projeto-tecnologias">
+                                <span>Java</span><span>SQL</span>
+                            </div>
+                            <a href="#" class="projeto-link">Ver Projeto</a>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 -->
+                    <div class="projeto-card">
+                        <div class="projeto-imagem">
+                            <div class="imagem-grid">
+                                <img src="lobycapa.png" alt="Imagem do Projeto 3">
+                                <img src="loby2.png" alt="Imagem do Projeto 3">
+                                <video controls>
+                                    <source src="Loby.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeo.
+                                </video>
+                            </div>
+                        </div>
+                        <div class="projeto-conteudo">
+                            <h3>LAUNCHER VS</h3>
+                            <p class="projeto-descricao">
+                                Launcher da Valle Software que centraliza todos os aplicativos da empresa em um único
+                                lugar.
+                            </p>
+                            <div class="projeto-tecnologias">
+                                <span>Java</span><span>XML</span><span>.JAR</span>
+                            </div>
+                            <a href="#" class="projeto-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Botão próximo -->
+                <button class="carrossel-btn carrossel-next">&#10095;</button>
+            </div>
+
+            <!-- Indicadores -->
+            <div class="carrossel-indicadores">
+                <span class="indicador active" data-index="0"></span>
+                <span class="indicador" data-index="1"></span>
+                <span class="indicador" data-index="2"></span>
+            </div>
+        </div>
+
+
+
+       <div class="painel_3">
+    <h1>Como Funciona a Valle Software</h1>
+
+    <div class="valle-info-container">
+        <section class="sobre-empresa">
+            <h2>Quem Somos</h2>
+            <p>
+                A <strong>Valle Software</strong> é uma empresa especializada em manutenção de computadores,
+                notebooks, desenvolvimento de sistemas personalizados e soluções tecnológicas sob demanda.
+                Atendemos tanto clientes físicos quanto empresas, oferecendo suporte ágil e de qualidade.
+            </p>
+        </section>
+
+        <section class="como-funciona">
+            <h2>Como Funciona</h2>
+            <ul>
+                <li><i class="fas fa-search"></i> <strong>Diagnóstico:</strong> Realizamos uma análise completa do equipamento ou necessidade do cliente.</li>
+                <li><i class="fas fa-tools"></i> <strong>Orçamento:</strong> Após o diagnóstico, enviamos um orçamento detalhado e transparente.</li>
+                <li><i class="fas fa-cogs"></i> <strong>Execução:</strong> Iniciamos o serviço de manutenção, reparo ou desenvolvimento conforme aprovação.</li>
+                <li><i class="fas fa-shield-alt"></i> <strong>Garantia:</strong> Todos os serviços têm garantia e suporte técnico.</li>
+            </ul>
+        </section>
+
+        <section class="servicos">
+            <h2>Serviços Oferecidos</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Assistência Técnica</h3>
+                    <p>Manutenção de PCs, notebooks e upgrades.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Desenvolvimento de Sistemas</h3>
+                    <p>Softwares personalizados para empresas em diferentes seguimentos.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Automação</h3>
+                    <p>Aplicativos que otimizam processos e controle de dados.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Consultoria Tecnológica</h3>
+                    <p>Orientação sobre montagem, upgrades e segurança digital.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato">
+            <h2>Como Solicitar</h2>
+            <p>Entre em contato pelo WhatsApp, e-mail ou redes sociais. Informe sua necessidade e receba uma análise gratuita.</p>
+            <a href="https://wa.me/5511919162364" class="btn-contato"><i class="fab fa-whatsapp"></i> Fale Conosco</a>
+        </section>
+    </div>
+</div>
+
+
+        <div class="painel_4">
+            <h1>Apoiadores</h1>
+            <p>Lista de apoiadores virá aqui.</p>
+        </div>
+
+        <div class="extra">
+            <div class="holographic-header">
+                <h1 class="neon-title">Mais Informações</h1>
+                <div class="scanline"></div>
+            </div>
+
+            <div class="cyber-content">
+                <p class="glow-text">
+                    // Disponível para conexões de novos projetos<br>
+                    // Envie um sinal para iniciar
+                </p>
+
+                <!-- Elementos futuristas adicionais -->
+                <div class="data-grid">
+                    <div class="grid-line vertical"></div>
+                    <div class="grid-line horizontal"></div>
+                </div>
+
+                <div class="holographic-orb"></div>
+            </div>
+
+            <div class="terminal-code">
+                <span class="code-line">> SYSTEM_READY</span>
+                <span class="code-line">> LOADING_DATA...</span>
+                <span class="code-line blink">> _</span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="neon-footer">
+        <div class="neon-text">
+            <p>© 2024 Meu Legado | <span class="coffee">☕</span> transformado em código</p>
+        </div>
+        <div class="particles">
+            <canvas id="lightning-canvas"></canvas>
+        </div>
+    </footer>
+
+
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Sistema de Painéis
+            const menuItems = document.querySelectorAll('.menu-item');
+            const panels = document.querySelectorAll('.panel-container > div');
+            let currentPanel = document.querySelector('.panel-active');
+            let currentIndex = 0;
+
+            // Mapeamento dos painéis
+            const panelMap = {};
+            panels.forEach((panel, index) => {
+                panelMap[panel.classList[0]] = { element: panel, index };
+
+                // Configuração inicial dos painéis não ativos
+                if (!panel.classList.contains('panel-active')) {
+                    panel.classList.add('panel-next');
+                }
+            });
+
+            // Event listeners para os itens do menu
+            menuItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    const targetPanelClass = this.getAttribute('data-panel');
+                    const targetPanel = panelMap[targetPanelClass].element;
+                    const targetIndex = panelMap[targetPanelClass].index;
+
+                    if (targetPanel === currentPanel) return;
+
+                    const direction = targetIndex > currentIndex ? 'next' : 'prev';
+
+                    // Animações de saída
+                    currentPanel.classList.remove('panel-active');
+                    currentPanel.classList.add('panel-exit', `exit-${direction}`);
+
+                    // Animações de entrada
+                    targetPanel.classList.remove('panel-next', 'panel-prev');
+                    targetPanel.classList.add('panel-active', `enter-${direction}`);
+
+                    // Atualiza menu ativo
+                    menuItems.forEach(i => i.classList.remove('active'));
+                    this.classList.add('active');
+
+                    setTimeout(() => {
+                        // Limpa animações
+                        currentPanel.classList.remove('panel-exit', `exit-${direction}`);
+                        currentPanel = targetPanel;
+                        currentIndex = targetIndex;
+
+                        // Atualiza posição dos outros painéis
+                        panels.forEach(panel => {
+                            if (panel !== currentPanel) {
+                                panel.classList.remove('panel-active', 'enter-next', 'enter-prev');
+                                const panelIndex = panelMap[panel.classList[0]].index;
+                                panel.classList.add(panelIndex > currentIndex ? 'panel-next' : 'panel-prev');
+                            }
+                        });
+
+                        // Ajusta o scroll para o topo do painel
+                        window.scrollTo(0, 0);
+                        adjustPanelHeights();
+                    }, 800);
+                });
+            });
+
+            // Ativa o primeiro item do menu
+            menuItems[0].classList.add('active');
+
+            // Carrossel de Projetos
+            const initProjectCarousel = () => {
+                const container = document.querySelector('.projetos-container');
+                const cards = document.querySelectorAll('.projeto-card');
+                const prevBtn = document.querySelector('.carrossel-prev');
+                const nextBtn = document.querySelector('.carrossel-next');
+                const indicadores = document.querySelectorAll('.indicador');
+                let currentProjectIndex = 0;
+                const totalCards = cards.length;
+
+                // Mostra o card ativo
+                const showCard = (index) => {
+                    // Valida o índice
+                    if (index < 0) index = totalCards - 1;
+                    if (index >= totalCards) index = 0;
+
+                    currentProjectIndex = index;
+
+                    // Atualiza cards
+                    cards.forEach(card => card.classList.remove('active'));
+                    cards[index].classList.add('active');
+
+                    // Atualiza indicadores
+                    indicadores.forEach((indicador, i) => {
+                        indicador.classList.toggle('active', i === index);
+                    });
+                };
+
+                // Navegação
+                if (nextBtn) nextBtn.addEventListener('click', () => showCard(currentProjectIndex + 1));
+                if (prevBtn) prevBtn.addEventListener('click', () => showCard(currentProjectIndex - 1));
+
+                // Indicadores
+                indicadores.forEach((indicador, index) => {
+                    indicador.addEventListener('click', () => showCard(index));
+                });
+
+                // Navegação por teclado (apenas quando o painel de projetos estiver ativo)
+                document.addEventListener('keydown', (e) => {
+                    if (!document.querySelector('.Painel_2').classList.contains('panel-active')) return;
+
+                    if (e.key === 'ArrowRight') showCard(currentProjectIndex + 1);
+                    else if (e.key === 'ArrowLeft') showCard(currentProjectIndex - 1);
+                });
+
+                // Inicializa o primeiro card
+                showCard(0);
+            };
+
+            // Função para ajustar alturas dos painéis
+            function adjustPanelHeights() {
+                const activePanel = document.querySelector('.panel-active');
+                if (!activePanel) return;
+
+                const windowHeight = window.innerHeight;
+                const menuHeight = document.querySelector('section ul')?.offsetHeight || 0;
+                const footerHeight = document.querySelector('.neon-footer')?.offsetHeight || 0;
+
+                // Altura calculada descontando menu e footer
+                const panelHeight = windowHeight - menuHeight - footerHeight - 40;
+
+                // Aplica a altura
+                activePanel.style.height = `${panelHeight}px`;
+                activePanel.style.overflowY = 'auto';
+
+                // Ajusta o conteúdo interno
+                const content = activePanel.querySelector('.panel-content') || activePanel;
+                content.style.height = '100%';
+                content.style.overflowY = 'auto';
+            }
+
+            // Inicializações
+            initProjectCarousel();
+            adjustPanelHeights();
+
+            // Ajusta ao redimensionar a janela
+            window.addEventListener('resize', adjustPanelHeights);
+        });
+    </script>
+
+    <script>
+        const canvas = document.getElementById("lightning-canvas");
+        const ctx = canvas.getContext("2d");
+
+        function resizeCanvas() {
+            canvas.width = canvas.offsetWidth;
+            canvas.height = canvas.offsetHeight;
+        }
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        function drawLightning(x, y, segments, maxOffset, color) {
+            ctx.beginPath();
+            ctx.moveTo(x, y);
+            for (let i = 0; i < segments; i++) {
+                x += (Math.random() - 0.5) * maxOffset;
+                y += canvas.height / segments;
+                ctx.lineTo(x, y);
+            }
+            ctx.strokeStyle = color;
+            ctx.lineWidth = 1.5;
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = color;
+            ctx.stroke();
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            if (Math.random() < 0.04) { // frequência dos raios
+                let x = Math.random() * canvas.width;
+                drawLightning(x, 0, 10, 30, "#00f6ff");
+                if (Math.random() < 0.3) {
+                    drawLightning(x + 50, 0, 10, 30, "#ffffff");
+                }
+            }
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+
+
+</body>
+
+</html>

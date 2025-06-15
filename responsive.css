@@ -1,0 +1,51 @@
+/* responsive.css */
+@media (max-width: 768px) {
+    body {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    
+    ul {
+        flex-wrap: wrap;
+    }
+    
+    .menu-item {
+        padding: 15px;
+        font-size: 0.8rem;
+    }
+    
+    .panel-container {
+        height: calc(100vh - 110px);
+    }
+    
+    #primeiro {
+        padding: 20px;
+    }
+    
+    #primeiro h1 {
+        font-size: 2rem;
+    }
+    
+    #primeiro h2 {
+        font-size: 1.5rem;
+    }
+    
+    .bio-card {
+        padding: 25px;
+    }
+    
+    .timeline-text p {
+        padding-left: 25px;
+        font-size: 1rem;
+    }
+    
+    .timeline-text p::before {
+        width: 12px;
+        height: 12px;
+        top: 8px;
+    }
+
+    .projetos-container {
+        grid-template-columns: 1fr;
+    }
+}
